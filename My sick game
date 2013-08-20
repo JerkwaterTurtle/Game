@@ -1,0 +1,9 @@
+var ready = prompt("ARE U READY TO PLAY?(yes or no)")
+if ready === "yes"
+{
+	console.log("LETSS DADADA DOO THISS")
+}
+else
+{
+	console.log("BUGGER OFF THENN")
+}
