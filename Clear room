@@ -1,0 +1,9 @@
+var c = document.getElementById("audience-canvas");
+var ctx = c.getContext("2d");
+var org = ctx.drawImage;
+ctx.drawImage = function(img, sx, sy, swidth, sheight, x, y, width, height) {
+ if(img.src.indexOf("room_mountain") > 0 || img.src.indexOf("room_cactus") > 0 || img.src.indexOf("room_arch") > 0) {
+  return;
+ }
+ org.bind(ctx)(img, sx, sy, swidth, sheight, x, y, width, height);
+};
