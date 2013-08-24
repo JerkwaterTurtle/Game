@@ -1,0 +1,10 @@
+confirm("Do you love Splix?")
+var question = prompt ("Is Splix life? (yes or no)")
+if (question === yes)
+{
+	console.log("You are correct")
+}
+else
+{
+	console.log("Wow so much r00d")
+}
