@@ -1,6 +1,6 @@
 confirm("Do you love Splix?")
 var question = prompt ("Is Splix life? (yes or no)")
-if (question === yes)
+if (question === "yes")
 {
 	prompt ("You are correct")
 }
