@@ -2,9 +2,9 @@ confirm("Do you love Splix?")
 var question = prompt ("Is Splix life? (yes or no)")
 if (question === "yes")
 {
-	prompt ("You are correct")
+	console.log("You are correct")
 }
 else
 {
-	prompt ("Wow so much r00d")
+	console.log("Wow so much r00d")
 }
