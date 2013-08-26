@@ -1,0 +1,10 @@
+confirm("are you here to be a faggit?")
+var dan = prompt("is dan gay?")
+if (dan === yes)
+{
+  confirm("course he is the bender")
+}
+else
+{
+  confirm("he is a fat puff deal with it")
+}
